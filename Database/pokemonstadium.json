@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pokemonstadium-5458d",
+  "private_key_id": "140aa5db712c7e8bd9cce44447d33c8efe3e48a6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCj4LxTOHRJbFua\na0jZScfz57keDT4CbSQt/Qi0v0kOT1tWRdHrOU70NzyBppErDb0HCbHus4oJ1WE0\nq5tesr0goAD7n32HZQWWmIck4632+DUTs6SUk3CCxBT5H7u7nv0Ce0WexVqNxAsa\naydMeaJogBglgxaHjCDXDKwJ3UNTYA+acOq1DddTd8wq1CrTxE4JPGlY0RzOkL+a\nhdjg+6ajp4ZyCWlXryf+PuVlFHMVNQd028ZBxgWVxDtABFPdlNdkSHSRF0MNqTGh\nCZaave+ADaCyXE23IQ3pC+9YO1tzf/9HdpANgxh1mbLWUEjfJsIAVxDQGbG9i6HM\nOtyuViaNAgMBAAECggEAIiZd+FWmXfqXqDk9KBKo+VnLiMinqGfIB1FYdBn8hl/h\nH7xS/1qk6l1sXXQxgjBNuN67VovRczUlGY29ReGnadoN+mGFDibuIDDO0NAlW3bj\n0KQ54sBKzOVBnZyQSYvbG55Gpsxnj21QBwRXXydlwbMX1RFZK4v29/lrDG8wbXoc\nq8xqe4DIJ35ZwJbKPKIhJth/ecoFUkJOUvIVq2N2BB9nwXdvdUsXw+bv9XWDVMnt\nLmMF4Fh/b0PbmBQtcYuFajcuhqDbEXqXc9EKafROvUfYtntjkCbUNN+SGu7mfm+u\nKDhpQr25xpyxuWI9fZWniga4a9zhUAX9G87mggxDXQKBgQDXmvnuJME2bLTy60f7\nNWbBzyuovWVhCOVbjzmHPm7G1klXnlmkjO6IUE5bfXWRkJ7mBU/XfdVMU/T0og8j\n1N6lqPzANlilPyuKtPR1sG8VkhHasrTgdD0+m07HO7BgnMI1BKX0ussFFOkHRNP3\nrd+RIX+/8QZ1SHkTN8eVgE2tywKBgQDClMRN5kvY//t9xiBUq2Lk5Ba+pvon2bIz\n+jHu5XeluCjRergq+dRXpIQ20dSDozEwhQF6OJVO/w2pZ3huGpOJG1o8mLCGoa2Q\nwgwNO69kwzcZ84FfqTrkZbfG/ABj6rOU6ijGJwskyRJwCGeDOeEafrZHZO1jBHwN\nF+1lRDZyBwKBgDeTNgtBpCAgQ0A+j45cRIF+olVbhI9PmLdSItUOrcVJJRyVr6uv\nvCic8qW4oB6Gdb767YqxX9LN7V1FjLuCumVfOs9c8tqdft7BKCZR9UBNJ5cE64TT\n0ZmatOK8KwmsPo8mBJUhtQU5T5vVDQJR6kfhp6lVOoHuzW67uRF7QgqjAoGAAMfm\nDcX50fIdCUEtSgmyCOcdbEBxSo2mGG1Nm/7RvxmBGG4cpReBkaR4X1vyNWEHRoGS\nIvJtLvb5EA/5PL/gjbFNaGbYdoHZl3Yf5EG0D3x1ESaYA1FDij0aQrMqMTx04gka\nhskLU2d3KnnuKGmoDJorkxfFmBshgE/zRO/EJCsCgYBEx4AFCzd5eZ4/2HiJSQR/\nNGvbR+LczKGGLBatfyL0NuCFRsL8dBPQd02FxlmY8kE3Nt/VJPbZo2B+hRYVZHPr\nxhzdnA1224gzkHOqZAASp5Q4VHVdkMiDa+cgSI1UU9BQWQEwchDK5HQvvMptEPu7\ncZUAUlKkMXtAYucyiP7uQw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ewabj@pokemonstadium-5458d.iam.gserviceaccount.com",
+  "client_id": "109500877720789205116",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ewabj%40pokemonstadium-5458d.iam.gserviceaccount.com"
+}
