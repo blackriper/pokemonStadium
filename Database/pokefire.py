@@ -5,16 +5,20 @@ from firebase_admin import firestore
 from Models.Pokemon import get_pokemon
 from Models.User import getUser,view_profile
 import random,os
+from dotenv import  load_dotenv
+
+load_dotenv()
+
 
 
 #conexion con firebase
 cred=credentials.Certificate("Database/pokemonstadium.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL': 'https://pokemonstadium-5458d-default-rtdb.firebaseio.com/'
+    'databaseURL':os.environ["FIREBASE_APP"]
 })
 
 #modificar texto de acuerdo a tu sistema operativo windows cambiar a cls  linux y mac clear
-OS_CLEAN="clear"
+OS_CLEAN=os.environ["CLEAN"]
 
 
 #crear perfil de usuario en firebase

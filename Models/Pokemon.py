@@ -1,9 +1,8 @@
 from requests_html import HTMLSession
 import  os
+from  dotenv import load_dotenv
 
-#base para traer la informacion de los pokemon
-URL_BASE = "https://www.pokexperto.net/index2.php?seccion=nds/nationaldex/movimientos_nivel&pk="
-
+load_dotenv()
 
 #retornar pokemon como un diccionario
 def get_data_pokemon(name,types,attacks):
@@ -20,7 +19,7 @@ def get_data_pokemon(name,types,attacks):
 
 #obtener la informacion base de los pokemon de la url de la wiki
 def get_pokemon(index):
-    url="{} {}".format(URL_BASE,index)
+    url="{} {}".format(os.environ["URL_BASE"],index)
     session=HTMLSession()
     pokemon_page=session.get(url)
     name=pokemon_page.html.find(".mini",first=True).text
@@ -42,6 +41,6 @@ def get_pokemon(index):
         attacks.append(attack)
 
 
-    return pokemon.get_data_pokemon(name,type,attacks)
+    return get_data_pokemon(name,type,attacks)
 
 
